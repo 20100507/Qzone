@@ -6,11 +6,11 @@ import org.bianqi.getdata.GetShuoShuoData;
 public class GetMyShuoShuo {
 	
 	static{
-		InputNameAndPwd.login();
+		
 	}
 	public static void main(String[] args) throws Exception {
 		// 开始QQ号 结束QQ号
-		long i = 44102;
+		long i = 44148;
 		long j = 48102;
 		getShuoshuo(i, j);
 	}

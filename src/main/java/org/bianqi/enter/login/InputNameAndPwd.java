@@ -71,7 +71,7 @@ public class InputNameAndPwd {
 						+ "&s_url=https%3A%2F%2Fqzs.qzone.qq.com%2Fqzone%2Fv5%2Floginsucc.html%3Fpara%3Dizone%26from%3Diqq"
 						+ "&f_url=&ptlang=2052"
 						+ "&ptredirect=100"
-						+ "&aid=549003912"
+						+ "&aid=549000912"
 						+ "&daid=5"
 						+ "&j_later=0"
 						+ "&low_login_hour=0"
@@ -84,7 +84,7 @@ public class InputNameAndPwd {
 				check_sig.header("Accept", "image/webp,image/*,*/*;q=0.8");
 				check_sig.header("Accept-Language", "zh-CN,zh;q=0.8,en;q=0.6");
 				check_sig.header("Connection", "keep-alive");
-				check_sig.header("cookie", "pgv_pvi=746982400; "
+				check_sig.header("cookie", "pgv_pvi=8028248064; "
 						+ "RK=vucf0uGrQV; "
 						+ "__Q_w_s__QZN_TodoMsgCnt=1;"
 						+ " __Q_w_s_hat_seed=1; "
@@ -96,9 +96,9 @@ public class InputNameAndPwd {
 						+ " Loading=Yes; "
 						+ "QZ_FE_WEBP_SUPPORT=1;"
 						+ " _qz_referrer=i.qq.com;"
-						+ " _qpsvr_localtk=0.9215939376165553;"
+						+ " _qpsvr_localtk=0.9215949376165553;"
 						+ " pgv_si=s9635414016;"
-						+ " pgv_info=ssid=s2020395600; "
+						+ " pgv_info=ssid=s2050395600; "
 						+ "ptui_loginuin="+KeyWord.uin+";"
 						+ " pt2gguin=o"+KeyWord.uin+"; "
 						+ "uin=o"+KeyWord.uin+"; "
@@ -117,13 +117,13 @@ public class InputNameAndPwd {
 				connect.header("Accept", "image/webp,image/*,*/*;q=0.8");
 				connect.header("Accept-Language", "zh-CN,zh;q=0.8,en;q=0.6");
 				connect.header("Connection", "keep-alive");
-				connect.header("cookie","pgv_pvi=746982400; "
-						+ "RK=vucf0uGrQV; "
+				connect.header("cookie","pgv_pvi=8028248064; "
+						+ "RK=vvcfluGbQX; "
 						+ "__Q_w_s__QZN_TodoMsgCnt=1;"
 						+ " __Q_w_s_hat_seed=1;"
 						+ " pac_uid=1_"+KeyWord.uin+";"
 						+ " randomSeed=457757;"
-						+ " _qpsvr_localtk=0.9215949376165553; "
+						+ " _qpsvr_localtk=0.7002974565386917; "
 						+ "pgv_si=s9635414016; "
 						+ "pgv_info=ssid=s2050395600;"
 						+ " pgv_pvid=7070951083; "

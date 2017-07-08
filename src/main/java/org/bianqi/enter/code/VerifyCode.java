@@ -77,12 +77,12 @@ public class VerifyCode {
                                 "&pt_tea=1" +
                                 "&pt_vcode=1" +
                                 "&uin=" + uin +
-                                "&appid=549030412" +
+                                "&appid=549000912" +
                                 "&js_ver=10140" +
                                 "&js_type=1" +
                                 "&login_sig=" +
                                 "&u1=http%3A%2F%2Fqzs.qq.com%2Fqzone%2Fv5%2Floginsucc.html%3Fpara%3Dizone" +
-                                "&r=0.6051182341306294")
+                                "&r=0.6051182341306292")
                                   .ignoreContentType(true)
                                   .execute();
         cookies = response.cookies();

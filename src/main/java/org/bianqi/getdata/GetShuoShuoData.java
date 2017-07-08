@@ -14,7 +14,7 @@ import org.jsoup.Jsoup;
 public class GetShuoShuoData {
 	public static void getShuoData(String QQNum) throws IOException{
 		//先登录哦~~
-		//InputNameAndPwd.login();
+		InputNameAndPwd.login();
 		//======================================获取说说JSON数据=================================
         Connection connect2 = Jsoup.connect("https://h5.qzone.qq.com/proxy/domain/"
         		+ "taotao.qq.com/cgi-bin/emotion_cgi_msglist_v6?"
