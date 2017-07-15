@@ -168,7 +168,7 @@ public class InputNameAndPwd {
 				}
 				br.close();
 				try {
-					Thread.sleep(300);
+					Thread.sleep(30);
 				} catch (InterruptedException e) {
 				}
 				KeyWord.qzonetoken = result.substring(47, 131);
