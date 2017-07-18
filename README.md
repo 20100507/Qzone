@@ -1,5 +1,5 @@
 # Qzone
-1. num.properties中输入用户名密码<br/>
+1. num.properties中输入用户名密码 至少10个QQ号码<br/>
 2. D盘新建文件夹out<br/>
 4. 找到GetMyShuoShuo.java i 开始抓取的QQ号 j 结束的QQ号<br/>
 3. 找到getMyShuoshuo.java main方法启动 即可开始抓取说说数据<br/>
